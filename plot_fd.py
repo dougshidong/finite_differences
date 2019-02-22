@@ -1,3 +1,4 @@
+# See https://github.com/dougshidong/finite_differences
 #!/usr/bin/python
 import matplotlib
 matplotlib.use('Agg')
