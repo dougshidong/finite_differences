@@ -1,5 +1,4 @@
-# See https://github.com/dougshidong/finite_differences
-#!/usr/bin/python
+#!/usr/bin/python3
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
@@ -89,3 +88,4 @@ plt.grid(b=True, which='major', color='black', linestyle='-',alpha=0.2)
 plt.tight_layout()
 pp.savefig(bbx_inches='tight')
 pp.close()
+plt.savefig('./allfd.png',bbox_inches='tight')
